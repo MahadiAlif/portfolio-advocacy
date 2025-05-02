@@ -412,4 +412,32 @@ section {
     min-height: 60vh;
     margin-top: 60px;
   }
+  .achievements-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .cycling-image {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image fits nicely */
+}
+.next {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--secondary);
+  font-weight: bold;
+}
+.achievement-card{
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  flex: 1 1 200px;
+  min-width: 200px;
+  max-width: 300px;
+}
 }
