@@ -398,6 +398,14 @@ section {
     padding: 1rem 0;
     display: none;
   }
+
+  .nav-links:hover{
+    display: flex;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
   .nav-links.active {
     display: flex;
   }
@@ -412,4 +420,98 @@ section {
     min-height: 60vh;
     margin-top: 60px;
   }
+.next {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--secondary);
+  font-weight: bold;
+}
+.achievement-card{
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  flex: 1 1 200px;
+  min-width: 200px;
+  max-width: 300px;
+}
+}
+.block-red {
+  background: #f1f8e9;
+  border-left: 5px solid var(--primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  width: 100%;
+  flex: 1 1 300px;
+  
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; 
+}
+.block-green {
+  background: #fffde7;
+  border-top: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  flex: 1 1 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.achievement-grid {
+  background-color: #004d40;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+.cycling-image {
+  width: 500px;
+  height: 350px; 
+  object-fit: cover; 
+}
+.left-arrow {
+  position: relative;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.arrow {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #81c784; /* Change to your desired hover color */
+}
+
+.arrow i {
+  font-size: 1.5rem;
+  color: #004d40; /* Arrow color */
+}
+.headText {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004d40; /* Text color */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.subText {
+  font-size: 1.2rem;
+  color: #004d40; /* Text color */
+  text-align: center;
+  margin-bottom: 1rem;
 }
